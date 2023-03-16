@@ -12,7 +12,7 @@ function runApi() {
       .then((data) => {
         const genderize = document.getElementById("genderize");
         const createDiv = document.createElement("div");
-        /* createDiv.classList.add("mb-3") */
+        createDiv.classList.add("mb-3");
         createDiv.innerHTML = `
                     <div class="card mb-2 mt-2 ms-2 float-start" style="width: 18rem;">
                         <div class="card-body">
